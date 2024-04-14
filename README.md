@@ -44,6 +44,7 @@ supports animated poster only.
 ![](resources/setup_ap.png)
 ### 21.2.0+omega ###
 - .14
+  * Condition visibility of OSD fixed (Youtube recommended channels)
   * channelswitch options reverted back (Nexus behaviour)
 
 
