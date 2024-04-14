@@ -44,6 +44,10 @@ supports animated poster only.
 ![](resources/setup_ap.png)
 
 ### 4.2.0+nexus ###
+- .15
+  * Condition visibility of OSD fixed (Youtube recommended channels)
+
+
 - .14
   * Channel manager, channel group manager fixed
   
