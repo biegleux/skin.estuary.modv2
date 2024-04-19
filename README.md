@@ -46,6 +46,7 @@ supports animated poster only.
 ### 4.2.0+nexus ###
 - .15
   * Condition visibility of OSD fixed (Youtube recommended channels)
+  * Genre IDs to genre info (EPG grid view) added, special genre labels from skin removed
 
 
 - .14

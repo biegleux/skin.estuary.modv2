@@ -188,7 +188,7 @@
 	</variable>
 	<variable name="PVRGenresVar">
 		<value condition="Skin.HasSetting(standard_PVRGenres)">$INFO[ListItem.Property(GenreType),windows/pvr/epg-genres/,.png]</value>
-		<value>$INFO[ListItem.Genre,special://skin/extras/epg-genres/,.png]</value>
+		<value>windows/pvr/epg-genres/0.png</value>
 	</variable>
 	<variable name="PVRDeviceNumberVar">
 		<value condition="String.Contains(PVR.ActStreamDevice,#0)">#0</value>

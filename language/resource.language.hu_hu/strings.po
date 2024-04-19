@@ -1982,8 +1982,8 @@ msgstr "Minden Artwork letöltése"
 
 #: /xml/Includes_MediaMenu.xml
 msgctxt "#31440"
-msgid "Standard colors for genres"
-msgstr "Alapszínek a műfajoknak"
+msgid "Use genre colors"
+msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31441"

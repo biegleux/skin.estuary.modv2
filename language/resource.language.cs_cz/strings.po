@@ -1886,8 +1886,8 @@ msgstr "Získat všechna umělecká díla"
 
 #: /xml/Includes_MediaMenu.xml
 msgctxt "#31440"
-msgid "Standard colors for genres"
-msgstr "Standardní barvy pro žánr"
+msgid "Use genre colors"
+msgstr ""
 
 #: /xml/SkinSettings.xml
 msgctxt "#31441"
