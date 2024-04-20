@@ -1974,7 +1974,7 @@ msgstr "Ottinei tutti gli Artworks"
 
 #: /xml/Includes_MediaMenu.xml
 msgctxt "#31440"
-msgid "Use genre colors"
+msgid "Genre Colors"
 msgstr ""
 
 #: /xml/SkinSettings.xml
