@@ -177,7 +177,7 @@
 					<label2>[B]$VAR[GenreColorSwitchVar][/B]</label2>
 					<include>DefaultSettingButton</include>
 					<description>defined genre colors</description>
-					<onclick condition="String.IsEmpty(Skin.String(genrecolors)) | [!String.IsEqual(Skin.String(genrecolors),1223) + !String.IsEqual(Skin.String(genrecolors),571) + !String.IsEqual(Skin.String(genrecolors),20190)]">Skin.SetString(genrecolors,31334)</onclick>
+					<onclick condition="String.IsEmpty(Skin.String(genrecolors)) | [!String.IsEqual(Skin.String(genrecolors),1223) + !String.IsEqual(Skin.String(genrecolors),571) + !String.IsEqual(Skin.String(genrecolors),20190)]">Skin.SetString(genrecolors,1223)</onclick>
 					<onclick condition="String.IsEqual(Skin.String(genrecolors),31334)">Skin.SetString(genrecolors,1223)</onclick>
 					<onclick condition="String.IsEqual(Skin.String(genrecolors),1223)">Skin.SetString(genrecolors,571)</onclick>
 					<onclick condition="String.IsEqual(Skin.String(genrecolors),571)">Skin.SetString(genrecolors,20190)</onclick>
