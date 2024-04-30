@@ -47,6 +47,7 @@ supports animated poster only.
 - .16
   * show year of release depending on skin settings in Live TV OSD main label
   * skin shortcuts favourite (overrides.xml) modified
+  * now/next Up in Cinemas to movie widget added 
 
 
 - .15
