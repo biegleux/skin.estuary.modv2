@@ -45,6 +45,7 @@ supports animated poster only.
 ### 21.2.0+omega ###
 - .15
   * show year of release depending on skin settings in Live TV OSD main label
+  * skin shortcuts favourite (overrides.xml) modified
 
 
 - .14
