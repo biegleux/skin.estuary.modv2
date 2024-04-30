@@ -45,7 +45,8 @@ supports animated poster only.
 ### 21.2.0+omega ###
 - .15
   * show year of release depending on skin settings in Live TV OSD main label
-
+  * skin shortcuts favourite (overrides.xml) modified
+  * now/next Up in Cinemas to movie widget added 
 
 - .14
   * Condition visibility of OSD fixed (Youtube recommended channels)
