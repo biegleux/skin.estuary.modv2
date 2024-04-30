@@ -81,14 +81,14 @@
     <shortcut>
         <label>31677</label>
         <label2>Common Shortcut</label2>
-        <icon>DefaultStudios.png</icon>
+        <icon>DefaultCinema.png</icon>
         <action>ActivateWindow(videos,plugin://script.embuary.info/movie/now_playing,return)</action>
         <visible>System.AddonIsEnabled(script.embuary.info)</visible>
     </shortcut>
     <shortcut>
         <label>31678</label>
         <label2>Common Shortcut</label2>
-        <icon>DefaultYear.png</icon>
+        <icon>DefaultNextUp.png</icon>
         <action>ActivateWindow(videos,plugin://script.embuary.info/movie/upcoming,return)</action>
         <visible>System.AddonIsEnabled(script.embuary.info)</visible>
     </shortcut>
