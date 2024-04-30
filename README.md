@@ -46,6 +46,7 @@ supports animated poster only.
 ### 4.2.0+nexus ###
 - .16
   * show year of release depending on skin settings in Live TV OSD main label
+  * skin shortcuts favourite (overrides.xml) modified
 
 
 - .15
