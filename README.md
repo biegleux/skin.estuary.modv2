@@ -47,6 +47,8 @@ supports animated poster only.
   * show year of release depending on skin settings in Live TV OSD main label
   * skin shortcuts favourite (overrides.xml) modified
   * now/next Up in Cinemas to movie widget added 
+  * Display FPS to player process info added
+
 
 - .14
   * Condition visibility of OSD fixed (Youtube recommended channels)
