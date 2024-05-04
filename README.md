@@ -48,6 +48,7 @@ supports animated poster only.
   * skin shortcuts favourite (overrides.xml) modified
   * now/next Up in Cinemas to movie widget added 
   * Display FPS to player process info added
+  * unwatched/total marker added to widgets. Configure them in skin settings
 
 
 - .14
