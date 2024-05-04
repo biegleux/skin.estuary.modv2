@@ -1217,7 +1217,12 @@
 		<value condition="String.IsEqual(Skin.String(show_videoresolution),31583)">$LOCALIZE[31583]</value>
 		<value condition="String.IsEqual(Skin.String(show_videoresolution),31584)">$LOCALIZE[31584]</value>
 		<value>$LOCALIZE[31334]</value>
-	</variable>	
+	</variable>
+	<variable name="EpisodesDisplayVar">
+		<value condition="String.IsEqual(Skin.String(EpisodesDisplay),31680)">$LOCALIZE[31680]</value>
+		<value condition="String.IsEqual(Skin.String(EpisodesDisplay),31681)">$LOCALIZE[31681]</value>
+		<value>$LOCALIZE[31334]</value>
+	</variable>
 	<variable name="SeekBarOpacityVar">
 		<value condition="Skin.HasSetting(SeekbarOpacity)">3FFFFFFF</value>
 		<value>FFFFFFFF</value>
@@ -1415,7 +1420,8 @@
 		<value>$INFO[ListItem.Art(icon)]</value>
 	</variable>
 	<variable name="ListLabel2Var">
-		<value condition="String.IsEmpty(Container.PluginName) + [Container.Content(tvshows) | Container.Content(seasons)] + String.IsEqual(Container.SortMethod,$LOCALIZE[556])">$INFO[ListItem.Property(WatchedEpisodes)]$INFO[ListItem.Property(TotalEpisodes), / ,]</value>
+		<value condition="String.IsEmpty(Container.PluginName) + [Container.Content(tvshows) | Container.Content(seasons)] + String.IsEqual(Container.SortMethod,$LOCALIZE[556]) + [String.IsEqual(Skin.String(EpisodesDisplay),31680) | String.IsEqual(Skin.String(EpisodesDisplay),31334)]">$INFO[ListItem.Property(WatchedEpisodes)]$INFO[ListItem.Property(TotalEpisodes), / ,]</value>
+		<value condition="String.IsEmpty(Container.PluginName) + [Container.Content(tvshows) | Container.Content(seasons)] + String.IsEqual(Container.SortMethod,$LOCALIZE[556]) + String.IsEqual(Skin.String(EpisodesDisplay),31681)">$INFO[ListItem.Property(UnwatchedEpisodes)]$INFO[ListItem.Property(TotalEpisodes), / ,]</value>
 		<value condition="String.IsEqual(Container.SortMethod,$LOCALIZE[556]) + !Skin.HasSetting(hide_pubyear) + Skin.HasSetting(circle_rating)">$INFO[ListItem.Rating,, • ]$INFO[ListItem.Year]</value>
  		<value condition="String.IsEqual(Container.SortMethod,$LOCALIZE[556]) + !Skin.HasSetting(hide_pubyear) + Skin.HasSetting(circle_userrating)">$INFO[ListItem.UserRating,, • ]$INFO[ListItem.Year]</value>
  		<value condition="String.IsEqual(Container.SortMethod,$LOCALIZE[556]) + !Skin.HasSetting(hide_pubyear) + Skin.HasSetting(circle_bothrating) + !String.IsEmpty(ListItem.UserRating)">$INFO[ListItem.UserRating,, • ]$INFO[ListItem.Year]</value>
@@ -1711,7 +1717,8 @@
 		<value condition="!String.IsEmpty(Player.Art(tvshow.poster))">$INFO[Player.Art(tvshow.poster)]</value>
 	</variable>
 	<variable name="BannerLabel2Var">
-		<value condition="String.IsEqual(Listitem.DBType,tvshow) | String.IsEqual(Listitem.DBType,season)">$INFO[ListItem.Property(WatchedEpisodes)]$INFO[ListItem.Property(TotalEpisodes), / ,]</value>
+		<value condition="[String.IsEqual(Listitem.DBType,tvshow) | String.IsEqual(Listitem.DBType,season)] + [String.IsEqual(Skin.String(EpisodesDisplay),31680) | String.IsEqual(Skin.String(EpisodesDisplay),31334)]">$INFO[ListItem.Property(WatchedEpisodes)]$INFO[ListItem.Property(TotalEpisodes), / ,]</value>
+		<value condition="[String.IsEqual(Listitem.DBType,tvshow) | String.IsEqual(Listitem.DBType,season)] + String.IsEqual(Skin.String(EpisodesDisplay),31681)">$INFO[ListItem.Property(UnwatchedEpisodes)]$INFO[ListItem.Property(TotalEpisodes), / ,]</value>
 	</variable>
 	<variable name="VideoPlayerForwardRewindVar">
 		<value condition="Player.Forwarding2x | Player.Rewinding2x">2x</value>

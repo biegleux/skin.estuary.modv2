@@ -2683,3 +2683,15 @@ msgstr "Aktuell im Kino"
 msgctxt "#31678"
 msgid "Next up in Cinemas"
 msgstr "Demnächst im Kino"
+
+msgctxt "#31679"
+msgid "Set Display of Episodes to"
+msgstr "Anzeige Episoden stellen auf"
+
+msgctxt "#31680"
+msgid "watched / total"
+msgstr "gesehen / gesamt"
+
+msgctxt "#31681"
+msgid "unwatched / total"
+msgstr "ungesehen / gesamt"

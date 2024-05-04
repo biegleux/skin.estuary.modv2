@@ -1495,7 +1495,7 @@
 					<width>250</width>
 					<height>50</height>
 					<texture colordiffuse="CCFFFFFF">overlays/overlayfade.png</texture>
-					<visible>!String.IsEmpty(ListItem.Art(poster)) + !String.IsEmpty(ListItem.Property(WatchedEpisodes)) + !String.IsEmpty(ListItem.Property(TotalEpisodes))</visible>
+					<visible>!String.IsEmpty(ListItem.Art(poster)) + !String.IsEmpty(ListItem.Property(WatchedEpisodes)) + !String.IsEmpty(ListItem.Property(UnwatchedEpisodes)) + !String.IsEmpty(ListItem.Property(TotalEpisodes))</visible>
 				</control>
 				<control type="label">
 					<left>0</left>
@@ -1505,6 +1505,17 @@
 					<font>font20_title</font>
 					<shadowcolor>$VAR[ShadowColorVar]</shadowcolor>
 					<align>right</align>
+					<visible>String.IsEqual(Skin.String(EpisodesDisplay),31680) | String.IsEqual(Skin.String(EpisodesDisplay),31334)</visible>
+				</control>
+				<control type="label">
+					<left>0</left>
+					<top>20</top>
+					<width>244</width>
+					<label>$INFO[ListItem.Property(UnwatchedEpisodes)]$INFO[ListItem.Property(TotalEpisodes), / ,]</label>
+					<font>font20_title</font>
+					<shadowcolor>$VAR[ShadowColorVar]</shadowcolor>
+					<align>right</align>
+					<visible>String.IsEqual(Skin.String(EpisodesDisplay),31681)</visible>
 				</control>
 				<control type="image">
 					<left>254</left>
@@ -1512,7 +1523,15 @@
 					<width>24</width>
 					<height>24</height>
 					<texture>lists/played-total.png</texture>
-					<visible>!String.IsEmpty(ListItem.Property(WatchedEpisodes)) + !String.IsEmpty(ListItem.Property(TotalEpisodes))</visible>
+					<visible>[String.IsEqual(Skin.String(EpisodesDisplay),31680) | String.IsEqual(Skin.String(EpisodesDisplay),31334)] + !String.IsEmpty(ListItem.Property(WatchedEpisodes)) + !String.IsEmpty(ListItem.Property(UnwatchedEpisodes)) + !String.IsEmpty(ListItem.Property(TotalEpisodes))</visible>
+				</control>
+				<control type="image">
+					<left>254</left>
+					<top>23</top>
+					<width>24</width>
+					<height>24</height>
+					<texture>lists/played-unwatched.png</texture>
+					<visible>String.IsEqual(Skin.String(EpisodesDisplay),31681) + !String.IsEmpty(ListItem.Property(WatchedEpisodes)) + !String.IsEmpty(ListItem.Property(UnwatchedEpisodes)) + !String.IsEmpty(ListItem.Property(TotalEpisodes))</visible>
 				</control>
 			</control>
 			<control type="image">
@@ -1754,6 +1773,17 @@
 					<font>font20_title</font>
 					<shadowcolor>$VAR[ShadowColorVar]</shadowcolor>
 					<align>right</align>
+					<visible>String.IsEqual(Skin.String(EpisodesDisplay),31680) | String.IsEqual(Skin.String(EpisodesDisplay),31334)</visible>
+				</control>
+				<control type="label">
+					<left>298</left>
+					<top>270</top>
+					<width>244</width>
+					<label>$INFO[ListItem.Property(UnwatchedEpisodes)]$INFO[ListItem.Property(TotalEpisodes), / ,]</label>
+					<font>font20_title</font>
+					<shadowcolor>$VAR[ShadowColorVar]</shadowcolor>
+					<align>right</align>
+					<visible>String.IsEqual(Skin.String(EpisodesDisplay),31681)</visible>
 				</control>
 				<control type="image">
 					<left>552</left>
@@ -1761,7 +1791,17 @@
 					<width>24</width>
 					<height>24</height>
 					<texture>lists/played-total.png</texture>
+					<visible>String.IsEqual(Skin.String(EpisodesDisplay),31680) | String.IsEqual(Skin.String(EpisodesDisplay),31334)</visible>
 				</control>
+				<control type="image">
+					<left>552</left>
+					<top>273</top>
+					<width>24</width>
+					<height>24</height>
+					<texture>lists/played-unwatched.png</texture>
+					<visible>String.IsEqual(Skin.String(EpisodesDisplay),31681)</visible>
+				</control>
+
 			</control>	
 			<control type="image">
 				<left>35</left>
