@@ -929,6 +929,37 @@
 		<value condition="String.Contains(ListItem.mpaa,6) | String.Contains(Container(60).ListItem.mpaa,6) | String.Contains(Window(Home).Property(PVR.Artwork.ListItem.mpaa),6)">6</value>
 		<value>NR</value>
 	</variable>
+	<variable name="ParentalRatingImageVar">
+		<value condition="String.Contains(VideoPlayer.ParentalRating,TV-Y7) | String.Contains(VideoPlayer.ParentalRating,TV-Y) | String.Contains(VideoPlayer.ParentalRating,TV-PG) | String.Contains(VideoPlayer.ParentalRating,TV-G) | String.Contains(VideoPlayer.ParentalRating,TV-14) | String.Contains(VideoPlayer.ParentalRating,TV-MA)">flags/mpaa-tv.png</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,PG-13) | String.Contains(Container(60).VideoPlayer.ParentalRating,PG-13) | String.Contains(Window(Home).Property(PVR.Artwork.VideoPlayer.ParentalRating),PG-13) | String.Contains(VideoPlayer.ParentalRating,NC-17) | String.Contains(Container(60).VideoPlayer.ParentalRating,NC-17) | String.Contains(Window(Home).Property(PVR.Artwork.VideoPlayer.ParentalRating),NC-17)">flags/mpaa-long.png</value>
+		<value>flags/mpaa.png</value>
+	</variable>
+	<variable name="ParentalRatingFlagVar">
+		<value condition="String.Contains(VideoPlayer.ParentalRating,TV-Y7)">Y7</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,TV-Y)">Y</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,TV-PG)">PG</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,TV-G)">G</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,TV-14)">14</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,TV-MA)">MA</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,Approved)">AP</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,Rated R)">R</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,Rated PG-13)">PG-13</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,Rated PG)">PG</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,Rated G)">G</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,Rated M)">M</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,Rated NC-17)">NC-17</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,Not Rated)">NR</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,12)">12</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,13)">13</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,14)">14</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,15)">15</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,16)">16</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,18)">18</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,U)">U</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,0)">0</value>
+		<value condition="String.Contains(VideoPlayer.ParentalRating,6)">6</value>
+		<value>NR</value>
+	</variable>
 	<variable name="PowerMenuAspectLabel2Var">
 		<value condition="Skin.HasSetting(powermenu_panel)">$LOCALIZE[31099]</value>
 		<value condition="Skin.HasSetting(powermenu_iconlist)">$LOCALIZE[31428]</value>
