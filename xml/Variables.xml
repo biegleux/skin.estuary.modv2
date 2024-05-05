@@ -1219,6 +1219,7 @@
 		<value>$LOCALIZE[31334]</value>
 	</variable>
 	<variable name="EpisodesDisplayVar">
+		<value condition="String.IsEqual(Skin.String(EpisodesDisplay),31578)">$LOCALIZE[31578]</value>
 		<value condition="String.IsEqual(Skin.String(EpisodesDisplay),31680)">$LOCALIZE[31680]</value>
 		<value condition="String.IsEqual(Skin.String(EpisodesDisplay),31681)">$LOCALIZE[31681]</value>
 		<value>$LOCALIZE[31334]</value>
