@@ -43,6 +43,10 @@ supports animated poster only.
 
 ![](resources/setup_ap.png)
 ### 21.2.0+omega ###
+- .16
+  * extend watched/unwatched marker settings with off option
+
+
 - .15
   * show year of release depending on skin settings in Live TV OSD main label
   * skin shortcuts favourite (overrides.xml) modified
