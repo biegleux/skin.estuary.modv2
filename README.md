@@ -62,6 +62,7 @@ supports animated poster only.
   * Genre IDs to genre info (EPG grid view) added, special genre labels from skin removed
   * new customized genres added, genre colors selection extended to off/default/custom
 
+
 - .14
   * Channel manager, channel group manager fixed
   
