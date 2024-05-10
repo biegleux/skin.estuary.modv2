@@ -46,7 +46,7 @@ supports animated poster only.
 ### 4.2.0+nexus ###
 - .17
   * extend watched/unwatched marker settings with off option
-  * Parental Rating label of PVR client in Video OSD included 
+  * Parental Rating flag of PVR client in Video OSD included 
 
 
 - .16
