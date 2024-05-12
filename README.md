@@ -43,6 +43,10 @@ supports animated poster only.
 
 ![](resources/setup_ap.png)
 ### 21.2.0+omega ###
+- .17
+    * watched/unwatched marker for items in addons fixed/improved
+
+
 - .16
   * extend watched/unwatched marker settings with off option
   * Parental Rating flag of PVR client in Video OSD included 
