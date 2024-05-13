@@ -1533,7 +1533,7 @@
 					<visible>!String.IsEmpty(ListItem.Property(UnwatchedEpisodes)) + String.IsEqual(Skin.String(EpisodesDisplay),31681)</visible>
 				</control>
 				<control type="image">
-					<left>552</left>
+					<left>254</left>
 					<top>23</top>
 					<width>24</width>
 					<height>24</height>
