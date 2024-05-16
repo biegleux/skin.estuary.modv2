@@ -2155,7 +2155,8 @@
  		<value condition="Control.HasFocus(101)">$LOCALIZE[31034]</value>
  		<value condition="Control.HasFocus(444)">$LOCALIZE[20457]$INFO[ListItem.Set, : ]</value>
  		<value condition="Control.HasFocus(13)">$LOCALIZE[31123]</value>
-		<value condition="Control.HasFocus(14)">$LOCALIZE[40000]</value>
+		<value condition="Control.HasFocus(14)">$LOCALIZE[40210]</value>
+		<value condition="Control.HasFocus(15)">$LOCALIZE[40211]</value>
  		<value condition="Control.HasFocus(102)">$LOCALIZE[31028]</value>
  		<value condition="Control.HasFocus(10)">$LOCALIZE[13511]</value>
  		<value condition="Control.HasFocus(7) | Control.HasFocus(77)">$LOCALIZE[31033]$INFO[ListItem.UserRating, : ]</value>
