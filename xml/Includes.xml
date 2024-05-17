@@ -1009,12 +1009,12 @@
 					<param name="visible2" value="!Skin.HasSetting(show_mediavideocodecflag)" />
 				</include>
 				<include content="MediaFlag">
-					<param name="texture" value="$INFO[$PARAM[infolabel_prefix]ListItem.HdrType,flags/videoresolution,.png]" />
+					<param name="texture" value="$INFO[$PARAM[infolabel_prefix]ListItem.HdrType,flags/videoresolution/,.png]" />
 					<param name="width" value="58" />
 					<param name="visible" value="[String.Contains($PARAM[infolabel_prefix]ListItem.HdrType,hdr) | String.IsEqual($PARAM[infolabel_prefix]ListItem.HdrType,hlg)] + !Skin.HasSetting(show_mediacolordepthflag)" />
 				</include>
 				<include content="MediaFlag">
-					<param name="texture" value="$INFO[$PARAM[infolabel_prefix]ListItem.HdrType,flags/videoresolution,.png]" />
+					<param name="texture" value="$INFO[$PARAM[infolabel_prefix]ListItem.HdrType,flags/videoresolution/,.png]" />
 					<param name="width" value="92" />
 					<param name="visible" value="String.IsEqual($PARAM[infolabel_prefix]ListItem.HdrType,dolbyvision) + !Skin.HasSetting(show_mediacolordepthflag)" />
 				</include>
@@ -1455,12 +1455,12 @@
 					<param name="visible" value="!String.IsEmpty($PARAM[infolabel_prefix]ListItem.VideoCodec)" />
 				</include>
 				<include content="MediaFlag">
-					<param name="texture" value="$INFO[$PARAM[infolabel_prefix]ListItem.HdrType,flags/videoresolution,.png]" />
+					<param name="texture" value="$INFO[$PARAM[infolabel_prefix]ListItem.HdrType,flags/videoresolution/,.png]" />
 					<param name="width" value="58" />
 					<param name="visible" value="[String.Contains($PARAM[infolabel_prefix]ListItem.HdrType,hdr) | String.IsEqual($PARAM[infolabel_prefix]ListItem.HdrType,hlg)] + !Skin.HasSetting(show_mediacolordepthflag)" />
 				</include>
 				<include content="MediaFlag">
-					<param name="texture" value="$INFO[$PARAM[infolabel_prefix]ListItem.HdrType,flags/videoresolution,.png]" />
+					<param name="texture" value="$INFO[$PARAM[infolabel_prefix]ListItem.HdrType,flags/videoresolution/,.png]" />
 					<param name="width" value="92" />
 					<param name="visible" value="String.IsEqual($PARAM[infolabel_prefix]ListItem.HdrType,dolbyvision) + !Skin.HasSetting(show_mediacolordepthflag)" />
 				</include>
@@ -4098,12 +4098,12 @@
 								<param name="visible" value="!Window.IsVisible(visualisation)" />
 							</include>
 							<include content="MediaFlag">
-								<param name="texture" value="$INFO[VideoPlayer.HdrType,flags/videoresolution,.png]" />
+								<param name="texture" value="$INFO[VideoPlayer.HdrType,flags/videoresolution/,.png]" />
 								<param name="visible" value="!String.IsEmpty(VideoPlayer.HdrType) + !String.Contains(VideoPlayer.HdrType,dolbyvision) + !Window.IsVisible(visualisation)" />
 								<param name="width" value="58" />
 							</include>
 							<include content="MediaFlag">
-								<param name="texture" value="$INFO[VideoPlayer.HdrType,flags/videoresolution,.png]" />
+								<param name="texture" value="$INFO[VideoPlayer.HdrType,flags/videoresolution/,.png]" />
 								<param name="visible" value="!String.IsEmpty(VideoPlayer.HdrType) + String.Contains(VideoPlayer.HdrType,dolbyvision) + !Window.IsVisible(visualisation)" />
 								<param name="width" value="94" />
 							</include>
