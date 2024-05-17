@@ -46,6 +46,8 @@ supports animated poster only.
 - .16
   * extend watched/unwatched marker settings with off option
   * Parental Rating label of PVR client in Video OSD included 
+  * smaller top bar overlay, lyrics background in fullscreen added
+  * Improvements of video versions selection 
 
 
 - .15

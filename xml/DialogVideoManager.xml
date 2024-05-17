@@ -14,10 +14,10 @@
 				<param name="header_id" value="2" />
 			</include>
 			<control type="image">
-				<top>200</top>
-				<left>40</left>
-				<width>260</width>
-				<height>390</height>
+				<top>170</top>
+				<left>20</left>
+				<width>300</width>
+				<height>450</height>
 				<align>center</align>
 				<aligny>center</aligny>
 				<aspectratio>keep</aspectratio>
@@ -37,7 +37,7 @@
 					<description>version list</description>
 					<top>20</top>
 					<left>20</left>
-					<height>580</height>
+					<bottom>80</bottom>
 					<onup>50</onup>
 					<ondown>50</ondown>
 					<onleft>200</onleft>
@@ -55,13 +55,26 @@
 					<left>660</left>
 					<top>20</top>
 					<width>12</width>
-					<height>560</height>
+					<bottom>80</bottom>
 					<onleft>50</onleft>
 					<onright>101</onright>
 					<orientation>vertical</orientation>
 				</control>
 			</control>
-			<control type="label">
+			<control type="group">
+				<left>-30</left>
+				<right>200</right>
+				<bottom>0</bottom>
+				<height>70</height>
+				<visible>Control.HasFocus(50)</visible>
+				<include content="MediaFlagsInfoDialogLeft">
+					<param name="align" value="left" />
+					<param name="infolabel_prefix" value="Container(50)." />
+					<param name="show_ratings" value="false" />
+					<param name="resolution_var" value="$INFO[Container(50).ListItem.VideoResolution,flags/videoresolution/,.png]" />
+				</include>
+			</control>
+			<!-- <control type="label">
 				<visible>Control.HasFocus(50)</visible>
 				<align>left</align>
 				<top>675</top>
@@ -78,7 +91,7 @@
 				<animation effect="fade" start="100" end="0" time="200">WindowClose</animation>
 				<animation effect="fade" start="0" end="100" time="300">Visible</animation>
 				<animation effect="fade" start="100" end="0" time="200">Hidden</animation>
-			</control>
+			</control> -->
 			<control type="grouplist" id="101">
 				<left>1000</left>
 				<top>90</top>
