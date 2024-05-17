@@ -1471,7 +1471,7 @@
 					<param name="visible" value="!String.IsEmpty($PARAM[infolabel_prefix]ListItem.VideoAspect)" />
 				</include>
 				<include content="MediaFlag">
-					<param name="texture" value="$PARAM[audiocodec_var]" />
+					<param name="texture" value="$INFO[$PARAM[infolabel_prefix]ListItem.AudioCodec,flags/audiocodec/,.png]" />
 					<param name="fallback" value="flags/audiocodec/fallback.png" />
 					<param name="width" value="104" />
 					<param name="visible" value="!String.IsEmpty($PARAM[infolabel_prefix]ListItem.AudioCodec)" />
@@ -4099,12 +4099,12 @@
 							</include>
 							<include content="MediaFlag">
 								<param name="texture" value="$INFO[VideoPlayer.HdrType,flags/videoresolution/,.png]" />
-								<param name="visible" value="!String.IsEmpty(VideoPlayer.HdrType) + !String.Contains(VideoPlayer.HdrType,dolbyvision) + !Window.IsVisible(visualisation)" />
+								<param name="visible" value="[String.Contains(VideoPlayer.HdrType,hdr) | String.Contains(VideoPlayer.HdrType,hlg)] + !Window.IsVisible(visualisation)" />
 								<param name="width" value="58" />
 							</include>
 							<include content="MediaFlag">
 								<param name="texture" value="$INFO[VideoPlayer.HdrType,flags/videoresolution/,.png]" />
-								<param name="visible" value="!String.IsEmpty(VideoPlayer.HdrType) + String.Contains(VideoPlayer.HdrType,dolbyvision) + !Window.IsVisible(visualisation)" />
+								<param name="visible" value="String.IsEqual(VideoPlayer.HdrType,dolbyvision) + !Window.IsVisible(visualisation)" />
 								<param name="width" value="94" />
 							</include>
 							<include content="MediaFlag">
