@@ -2295,7 +2295,7 @@
 					<left>0</left>
 					<top>0</top>
 					<width>110%</width>
-					<height>180</height>
+					<height>160</height>
 					<texture colordiffuse="$VAR[Bars_Opacity]">frame/osdfade.png</texture>
 					<animation effect="fade" start="100" end="0" time="300" condition="Window.Next(screencalibration)">WindowClose</animation>
 					<visible>$PARAM[visible]</visible>

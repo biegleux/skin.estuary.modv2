@@ -46,6 +46,7 @@ supports animated poster only.
 ### 4.2.0+nexus ###
 - .18
   * watched/unwatched marker for items in addons fixed/improved
+  * smaller top bar overlay, lyrics background in fullscreen added
 
 
 - .17
