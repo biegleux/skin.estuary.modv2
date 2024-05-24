@@ -43,6 +43,10 @@ supports animated poster only.
 
 ![](resources/setup_ap.png)
 ### 21.2.0+omega ###
+- .18
+  * Conditional loading of code depending on script.embuary.* modified
+  
+
 - .17
   * smaller top bar overlay, lyrics background in fullscreen added
   * Improvements of video versions selection 
