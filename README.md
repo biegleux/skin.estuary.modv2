@@ -44,6 +44,10 @@ supports animated poster only.
 ![](resources/setup_ap.png)
 
 ### 4.2.0+nexus ###
+- .19
+  * Conditional loading of code depending on script.embuary.* modified
+  
+
 - .18
   * watched/unwatched marker for items in addons fixed/improved
   * smaller top bar overlay, lyrics background in fullscreen added
