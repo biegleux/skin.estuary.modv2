@@ -45,6 +45,8 @@ supports animated poster only.
 
 ### 4.2.0+nexus ###
 - .19
+  * wrong setting status in skin settings fixed
+  * not working option for showing fanart in music visualization fixed
   * Conditional loading of code depending on script.embuary.* modified
   
 
