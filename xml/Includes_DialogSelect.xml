@@ -40,6 +40,7 @@
 					<param name="infolabel_prefix" value="Container(6)." />
 					<param name="show_ratings" value="false" />
 					<param name="resolution_var" value="$VAR[Container6_3DFlagVar]" />
+					<param name="audiocodec_var" value="$VAR[Container6_AudioCodecFlagVar]" />
 				</include>
 			</control>
 			<control type="list" id="3">
