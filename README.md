@@ -44,6 +44,11 @@ supports animated poster only.
 ![](resources/setup_ap.png)
 
 ### 4.2.0+nexus ###
+- .20
+  * Improvements on video set info window (1132) added 
+  * condition variables of special flags improved
+  
+
 - .19
   * wrong setting status in skin settings fixed
   * not working option for showing fanart in music visualization fixed
