@@ -1654,6 +1654,14 @@
 		<value condition="Container(6).ListItem.IsStereoscopic">flags/videoresolution/3D.png</value>
 		<value>$INFO[Container(6).ListItem.VideoResolution,flags/videoresolution/,.png]</value>
 	</variable>
+	<variable name="Container50_3DFlagVar">
+		<value condition="String.Contains(Container(50).ListItem.Filenameandpath,3d.mvc)">flags/videoresolution/3Dmvc.png</value>
+		<value condition="String.Contains(Container(50).ListItem.Filenameandpath,3d.sbs)">flags/videoresolution/3Dsbs.png</value>
+		<value condition="String.Contains(Container(50).ListItem.Filenameandpath,3d.tab)">flags/videoresolution/3Dtab.png</value>
+		<value condition="String.Contains(Container(50).ListItem.Filenameandpath,.3d.)">flags/videoresolution/3D.png</value>
+		<value condition="Container(50).ListItem.IsStereoscopic">flags/videoresolution/3D.png</value>
+		<value>$INFO[Container(50).ListItem.VideoResolution,flags/videoresolution/,.png]</value>
+	</variable>
 	<variable name="Container5083_3DFlagVar">
 		<value condition="String.Contains(Container(5083).ListItem.Filenameandpath,3d.mvc)">flags/videoresolution/3Dmvc.png</value>
 		<value condition="String.Contains(Container(5083).ListItem.Filenameandpath,3d.sbs)">flags/videoresolution/3Dsbs.png</value>
@@ -1742,12 +1750,14 @@
 		<value condition="!String.IsEmpty(Container.Art(tvshow.poster)) + Container.Content(episodes)">$INFO[Container.Art(tvshow.poster)]</value>
 		<value>$INFO[ListItem.Art(poster)]</value>
 	</variable>
+	<!--
 	<variable name="VideoVersionPosterVar">
 		<value condition="ControlGroup(200).HasFocus(201) + !String.IsEmpty(Container(50).ListItem.Art(poster))">$INFO[Container(50).ListItem.Art(poster)]</value>
 		<value condition="ControlGroup(200).HasFocus(201) + String.IsEmpty(Container(51).ListItem.Art(poster))">$INFO[Container(50).ListItem.Art(thumb)]</value>
 		<value condition="ControlGroup(200).HasFocus(202) + !String.IsEmpty(Container(51).ListItem.Art(poster))">$INFO[Container(51).ListItem.Art(poster)]</value>
 		<value condition="ControlGroup(200).HasFocus(202) + String.IsEmpty(Container(51).ListItem.Art(poster))">$INFO[Container(51).ListItem.Art(thumb)]</value>
 	</variable>
+	-->
 	<variable name="VideoVersionFileVar">
 		<value condition="Control.HasFocus(50)">$INFO[Container(50).ListItem.FileNameAndPath]</value>
 		<value condition="Control.HasFocus(51)">$INFO[Container(51).ListItem.FileNameAndPath]</value>
