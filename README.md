@@ -43,6 +43,12 @@ supports animated poster only.
 
 ![](resources/setup_ap.png)
 
+### 4.2.1+nexus ###
+- .0
+  * Out of development
+  * smaller improvements in touch mode
+
+
 ### 4.2.0+nexus ###
 - .20
   * Improvements on video set info window (1132) added 
