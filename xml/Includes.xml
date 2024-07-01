@@ -4026,7 +4026,7 @@
 					<control type="label">
 						<left>460</left>
 						<bottom>210</bottom>
-						<right>30</right>
+						<right>730</right>
 						<height>30</height>
 						<scroll>true</scroll>
 						<font>font12</font>
