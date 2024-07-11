@@ -43,6 +43,10 @@ supports animated poster only.
 
 ![](resources/setup_ap.png)
 ### 21.2.1+omega ###
+- .2
+  * Condition of items in media menu side blade fixed
+
+
 - .1
   * smaller improvements for touch mode
 
