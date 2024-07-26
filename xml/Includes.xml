@@ -1018,7 +1018,7 @@
 				<include content="MediaFlag">
 					<param name="texture" value="$VAR[HdrTypeVar]" />
 					<param name="width" value="58" />
-					<param name="visible" value="String.Contains(Control.GetLabel(4396),hdr) | String.Contains(Control.GetLabel(4396),hlg)" />
+					<param name="visible" value="String.Contains(Control.GetLabel(4396),hdr) | String.Contains(Control.GetLabel(4396),hdrplus) | String.Contains(Control.GetLabel(4396),hlg)" />
 					<param name="visible2" value="!Skin.HasSetting(show_mediacolordepthflag)" />
 				</include>
 				<include content="MediaFlag">
@@ -1470,12 +1470,12 @@
 				<include content="MediaFlag">
 					<param name="texture" value="$VAR[HdrTypeVar]" />
 					<param name="width" value="58" />
-					<param name="visible" value="[String.Contains(Control.GetLabel(4394),hdr) | String.Contains(Control.GetLabel(4394),hlg)] + !Skin.HasSetting(show_mediacolordepthflag)" />
+					<param name="visible" value="[String.Contains(Control.GetLabel(4394),hdr) | String.Contains(Control.GetLabel(4394),hdrplus) | String.Contains(Control.GetLabel(4394),hlg)] + !Skin.HasSetting(show_mediacolordepthflag)" />
 				</include>
 				<include content="MediaFlag">
 					<param name="texture" value="$VAR[HdrTypeVar]" />
 					<param name="width" value="92" />
-					<param name="visible" value="String.Contains(Control.GetLabel(4394),dolbyvision) + !Skin.HasSetting(show_mediacolordepthflag)" />
+					<param name="visible" value="String.IsEqual(Control.GetLabel(4394),dolbyvision) + !Skin.HasSetting(show_mediacolordepthflag)" />
 				</include>
 				<include content="MediaFlag">
 					<param name="texture" value="$INFO[$PARAM[infolabel_prefix]ListItem.VideoAspect,flags/aspectratio/,.png]" />
@@ -4112,7 +4112,7 @@
 							</include>
 							<include content="MediaFlag">
 								<param name="texture" value="$VAR[VideoPlayerHdrTypeVar]" />
-								<param name="visible" value="[String.Contains(VideoPlayer.HdrType,hdr) | String.Contains(VideoPlayer.HdrType,hlg)] + !Window.IsVisible(visualisation)" />
+								<param name="visible" value="[String.IsEqual(VideoPlayer.HdrType,hdr10) | String.IsEqual(VideoPlayer.HdrType,hlg)] + !Window.IsVisible(visualisation)" />
 								<param name="width" value="58" />
 							</include>
 							<include content="MediaFlag">
