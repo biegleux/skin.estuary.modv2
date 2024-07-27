@@ -46,6 +46,7 @@ supports animated poster only.
 - .2
   * Info labels to player process info added
   * Condition of items in media menu side blade fixed
+  * HDRplus detection by filename added
 
 
 - .1
