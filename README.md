@@ -48,6 +48,7 @@ supports animated poster only.
   * End of development
   * smaller improvements in touch mode
   * special audio flags in info dialog fixed
+  * improved adjustments of category widget items in home menu
 
 
 ### 4.2.0+nexus ###
