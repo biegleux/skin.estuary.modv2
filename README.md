@@ -45,8 +45,9 @@ supports animated poster only.
 ### 21.2.1+omega ###
 - .2
   * Info labels to player process info added
-  * Condition of items in media menu side blade fixed
-  * HDRplus detection by filename added
+  * Visibility condition of items in media menu side blade fixed (PVR, EPG)
+  * Visibility of "Browse" item in home widgets are now conditional depending on info/play setting of widget 
+  * HDRplus detection by filename added (expects .hdrplus. in filename)
 
 
 - .1
