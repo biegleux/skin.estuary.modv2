@@ -43,6 +43,10 @@ supports animated poster only.
 
 ![](resources/setup_ap.png)
 ### 21.2.1+omega ###
+- .3
+  * improved adjustments of category widget items in home menu
+
+
 - .2
   * Info labels to player process info added
   * Visibility condition of items in media menu side blade fixed (PVR, EPG)
