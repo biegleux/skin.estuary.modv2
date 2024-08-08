@@ -45,6 +45,7 @@ supports animated poster only.
 ### 21.2.1+omega ###
 - .3
   * improved adjustments of category widget items in home menu
+  * vertical slide of personal widget panels removed
 
 
 - .2
