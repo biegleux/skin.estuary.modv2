@@ -43,6 +43,10 @@ supports animated poster only.
 
 ![](resources/setup_ap.png)
 ### 21.2.1+omega ###
+- .4
+  * Info panel of PVR guide list views improved
+
+
 - .3
   * improved adjustments of category widget items in home menu
   * vertical slide of personal widget panels removed
