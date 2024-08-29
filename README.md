@@ -45,6 +45,7 @@ supports animated poster only.
 ### 21.2.1+omega ###
 - .4
   * Info panel of PVR guide list views improved
+  * some fixes for jump2letter conditions adapted
 
 
 - .3
