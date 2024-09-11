@@ -43,6 +43,11 @@ supports animated poster only.
 
 ![](resources/setup_ap.png)
 ### 21.2.1+omega ###
+- .5
+  * exclude special plugin from size calculation in helpers.py
+  * Code cleanup
+
+
 - .4
   * Info panel of PVR guide list views improved
   * some fixes for jump2letter conditions adapted
